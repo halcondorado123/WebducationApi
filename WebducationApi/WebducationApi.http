@@ -1,0 +1,6 @@
+@WebducationApi_HostAddress = http://localhost:5179
+
+GET {{WebducationApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
