@@ -9,6 +9,7 @@ namespace WebducationApi.Tranversal.Mapper
         {
             CreateMap<StudentME, StudentDTO>().ReverseMap();
             CreateMap<TeacherME, TeacherDTO>().ReverseMap();
+            CreateMap<CourseME, CourseDTO>().ReverseMap();
         }
     }
 }

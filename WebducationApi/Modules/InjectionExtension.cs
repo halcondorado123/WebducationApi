@@ -26,6 +26,10 @@ namespace WebducationApi.Modules
             services.AddScoped<ITeacherDomain, TeacherDomain>();
             services.AddScoped<ITeacherRepository, TeacherRepository>();
 
+            services.AddScoped<ICourseApplication, CourseApplication>();
+            services.AddScoped<ICourseDomain, CourseDomain>();
+            services.AddScoped<ICourseRepository, CourseRepository>();
+
 
             return services;
         }
