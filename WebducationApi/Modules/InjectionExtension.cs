@@ -14,6 +14,7 @@ namespace WebducationApi.Modules
         {
             services.AddSingleton<IConfiguration>(configuration);
             services.AddSingleton<ApiDbContext>();
+            services.AddScoped<JWTExtension>();
             services.AddAutoMapper(typeof(MappingsProfile)); // si está en el mismo assembly
             services.AddScoped<IStudentApplication, StudentApplication>();
             services.AddScoped<IStudentDomain, StudentDomain> ();

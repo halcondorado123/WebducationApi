@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebducationApi.Application.Interface;
 using WebducationApi.Domain.Entities;
 using WebducationApi.Domain.Interface;
 
 namespace WebducationApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/clients")]
     public class StudentController : Controller
