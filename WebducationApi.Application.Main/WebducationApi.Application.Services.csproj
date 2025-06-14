@@ -8,12 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebducationApi.Application.DTO\WebducationApi.Application.DTO.csproj" />
-    <ProjectReference Include="..\WebducationApi.Domain.Entities\WebducationApi.Domain.Entities.csproj" />
+    <ProjectReference Include="..\WebducationApi.Application.Interface\WebducationApi.Application.Interface.csproj" />
+    <ProjectReference Include="..\WebducationApi.Domain.Interface\WebducationApi.Domain.Interface.csproj" />
   </ItemGroup>
 
 </Project>

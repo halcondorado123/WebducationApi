@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Application.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Application.Interface", "WebducationApi.Application.Interface\WebducationApi.Application.Interface.csproj", "{15AEB1EA-BBED-4884-862F-2EA20A9EE040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Application.Main", "WebducationApi.Application.Main\WebducationApi.Application.Main.csproj", "{5EE9BE74-5EF6-4538-91F8-2EF62998E1FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Application.Services", "WebducationApi.Application.Main\WebducationApi.Application.Services.csproj", "{5EE9BE74-5EF6-4538-91F8-2EF62998E1FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Domain.Core", "WebducationApi.Domain.Core\WebducationApi.Domain.Core.csproj", "{77D3D4F2-2E0D-4F84-BC4B-142EA309465C}"
 EndProject

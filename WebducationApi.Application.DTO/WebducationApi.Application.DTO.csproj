@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebducationApi.Transversal.Common\WebducationApi.Transversal.Common.csproj" />
+  </ItemGroup>
+
 </Project>

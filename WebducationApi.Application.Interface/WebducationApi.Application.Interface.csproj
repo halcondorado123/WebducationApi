@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebducationApi.Application.DTO\WebducationApi.Application.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

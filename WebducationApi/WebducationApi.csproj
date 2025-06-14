@@ -11,9 +11,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Modules\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebducationApi.Application.Interface\WebducationApi.Application.Interface.csproj" />
+    <ProjectReference Include="..\WebducationApi.Application.Main\WebducationApi.Application.Services.csproj" />
+    <ProjectReference Include="..\WebducationApi.Domain.Core\WebducationApi.Domain.Core.csproj" />
+    <ProjectReference Include="..\WebducationApi.Domain.Interface\WebducationApi.Domain.Interface.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Data\WebducationApi.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Interface\WebducationApi.Infraestructure.Interface.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Repository\WebducationApi.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\WebducationApi.Transversal.Mapper\WebducationApi.Transversal.Mapper.csproj" />
   </ItemGroup>
 
 </Project>

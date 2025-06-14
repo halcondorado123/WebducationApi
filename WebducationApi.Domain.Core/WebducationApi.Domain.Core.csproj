@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebducationApi.Application.Main\WebducationApi.Application.Services.csproj" />
+    <ProjectReference Include="..\WebducationApi.Domain.Interface\WebducationApi.Domain.Interface.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Data\WebducationApi.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Interface\WebducationApi.Infraestructure.Interface.csproj" />
+  </ItemGroup>
+
 </Project>

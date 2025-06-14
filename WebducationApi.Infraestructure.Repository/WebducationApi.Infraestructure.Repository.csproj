@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Data\WebducationApi.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\WebducationApi.Infraestructure.Interface\WebducationApi.Infraestructure.Interface.csproj" />
+  </ItemGroup>
+
 </Project>
