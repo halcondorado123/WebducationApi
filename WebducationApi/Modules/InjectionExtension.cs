@@ -5,6 +5,7 @@ using WebducationApi.Domain.Interface;
 using WebducationApi.Infraestructure.Interface;
 using WebducationApi.Infraestructure.Repository;
 using WebducationApi.Tranversal.Mapper;
+using WebducationApi.Application.Main;
 
 namespace WebducationApi.Modules
 {
@@ -15,10 +16,16 @@ namespace WebducationApi.Modules
             services.AddSingleton<IConfiguration>(configuration);
             services.AddSingleton<ApiDbContext>();
             services.AddScoped<JWTExtension>();
-            services.AddAutoMapper(typeof(MappingsProfile)); // si está en el mismo assembly
+            services.AddAutoMapper(typeof(MappingsProfile));
+
             services.AddScoped<IStudentApplication, StudentApplication>();
             services.AddScoped<IStudentDomain, StudentDomain> ();
             services.AddScoped<IStudentRepository, StudentRepository>();
+
+            services.AddScoped<ITeacherApplication, TeacherApplication>();
+            services.AddScoped<ITeacherDomain, TeacherDomain>();
+            services.AddScoped<ITeacherRepository, TeacherRepository>();
+
 
             return services;
         }

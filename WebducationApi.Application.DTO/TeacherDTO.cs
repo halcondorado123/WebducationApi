@@ -8,18 +8,17 @@ namespace WebducationApi.Domain.Entities
 {
     public class TeacherDTO
     {
-        public int GradeId { get; set; }
-        public int StudentId { get; set; }
-        public StudentDTO Student { get; set; } = null!;
+        public int TeacherId { get; set; }
 
-        public int CourseId { get; set; }
-        public CourseDTO Course { get; set; } = null!;
+        public string FirstName { get; set; } = null!;
+        public string LastName { get; set; } = null!;
+        public string? SubjectArea { get; set; }
 
-        public decimal GradeValue { get; set; }
+        public string Email { get; set; } = null!;
 
-        // Auditoría
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
         public string? CreatedBy { get; set; }
+
         public DateTime? UpdatedAt { get; set; }
         public string? UpdatedBy { get; set; }
     }

@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Domain.Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Transversal.Common", "WebducationApi.Transversal.Common\WebducationApi.Transversal.Common.csproj", "{B148D9F3-4E1E-424C-8EF1-250C0245A940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Transversal.Logging", "WebducationApi.Transversal.Logging\WebducationApi.Transversal.Logging.csproj", "{15C45942-1445-4B34-991E-1974B90512BB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebducationApi.Transversal.Mapper", "WebducationApi.Transversal.Mapper\WebducationApi.Transversal.Mapper.csproj", "{6FA65539-CF3E-4DAF-BDD6-814842987392}"
 EndProject
 Global
@@ -89,10 +87,6 @@ Global
 		{B148D9F3-4E1E-424C-8EF1-250C0245A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B148D9F3-4E1E-424C-8EF1-250C0245A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B148D9F3-4E1E-424C-8EF1-250C0245A940}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15C45942-1445-4B34-991E-1974B90512BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15C45942-1445-4B34-991E-1974B90512BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15C45942-1445-4B34-991E-1974B90512BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15C45942-1445-4B34-991E-1974B90512BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6FA65539-CF3E-4DAF-BDD6-814842987392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6FA65539-CF3E-4DAF-BDD6-814842987392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA65539-CF3E-4DAF-BDD6-814842987392}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,7 +107,6 @@ Global
 		{77D3D4F2-2E0D-4F84-BC4B-142EA309465C} = {D2554EC6-EDE5-44CC-B08B-6C052209BABC}
 		{2F1A93E6-1365-4F56-838A-799CB267666A} = {D2554EC6-EDE5-44CC-B08B-6C052209BABC}
 		{B148D9F3-4E1E-424C-8EF1-250C0245A940} = {312CF64D-6C91-4A41-9940-29B93B40D1C0}
-		{15C45942-1445-4B34-991E-1974B90512BB} = {312CF64D-6C91-4A41-9940-29B93B40D1C0}
 		{6FA65539-CF3E-4DAF-BDD6-814842987392} = {312CF64D-6C91-4A41-9940-29B93B40D1C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

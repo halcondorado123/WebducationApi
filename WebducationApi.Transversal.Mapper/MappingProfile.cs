@@ -8,6 +8,7 @@ namespace WebducationApi.Tranversal.Mapper
         public MappingsProfile()
         {
             CreateMap<StudentME, StudentDTO>().ReverseMap();
+            CreateMap<TeacherME, TeacherDTO>().ReverseMap();
         }
     }
 }

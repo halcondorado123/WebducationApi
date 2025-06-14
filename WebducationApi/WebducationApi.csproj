@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WebducationApi.Application.Interface\WebducationApi.Application.Interface.csproj" />
     <ProjectReference Include="..\WebducationApi.Application.Main\WebducationApi.Application.Services.csproj" />
     <ProjectReference Include="..\WebducationApi.Domain.Core\WebducationApi.Domain.Core.csproj" />
