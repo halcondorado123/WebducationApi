@@ -65,8 +65,6 @@ Los scripts SQL (DDL, DML y SPs) no están embebidos en el código, sino que deb
 Clonando el repositorio completo:
 
 bash
-Copiar
-Editar
 git clone https://github.com/halcondorado123/WebducationApi.git
 O descargando como ZIP desde GitHub, y extrayendo la carpeta Database.
 
@@ -74,10 +72,8 @@ O descargando como ZIP desde GitHub, y extrayendo la carpeta Database.
 Edita el archivo appsettings.json con los datos correctos de tu servidor:
 
 json
-Copiar
-Editar
 "ConnectionStrings": {
-  "MyLocalConnection": "Server=localhost\\SQLEXPRESS;Database=SCHOOL_DB;Trusted_Connection=True;TrustServerCertificate=True"
+  "MyLocalConnection": "Server=(RedLocal);Database=SCHOOL_DB;Trusted_Connection=True;TrustServerCertificate=True"
 }
 Asegúrate de que la base de datos SCHOOL_DB ya esté creada y contenga las tablas y procedimientos necesarios.
 
@@ -85,28 +81,20 @@ Asegúrate de que la base de datos SCHOOL_DB ya esté creada y contenga las tabl
 Configura user-secrets para el usuario inicial:
 
 bash
-Copiar
-Editar
 dotnet user-secrets init
 dotnet user-secrets set "InitUser:UserName" "superAdmin"
 dotnet user-secrets set "InitUser:Password" "tupasswordsegura"
 Restaura dependencias:
 
 bash
-Copiar
-Editar
 dotnet restore
 Ejecuta la API:
 
 bash
-Copiar
-Editar
 dotnet run --project WebducationApi/WebducationApi.csproj
 Abre Swagger en el navegador:
 
 bash
-Copiar
-Editar
 https://localhost:{puerto}/swagger
 🧪 Autenticación en Swagger
 Realiza un POST a /api/token con tu usuario y contraseña.
@@ -116,10 +104,6 @@ Copia el token JWT retornado.
 Haz clic en Authorize en la parte superior de Swagger.
 
 Pega el token:
-
-Copiar
-Editar
-Bearer {tu_token}
 Ahora puedes consumir endpoints protegidos.
 
 👤 Autor
